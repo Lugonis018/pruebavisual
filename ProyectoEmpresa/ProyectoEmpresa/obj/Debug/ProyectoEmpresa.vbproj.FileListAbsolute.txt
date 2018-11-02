@@ -1,0 +1,73 @@
+C:\Users\Autonoma\Desktop\semana7 Arqui\ProyectoEmpresa\ProyectoEmpresa\bin\Debug\ProyectoEmpresa.exe.config
+C:\Users\Autonoma\Desktop\semana7 Arqui\ProyectoEmpresa\ProyectoEmpresa\bin\Debug\ProyectoEmpresa.exe
+C:\Users\Autonoma\Desktop\semana7 Arqui\ProyectoEmpresa\ProyectoEmpresa\bin\Debug\ProyectoEmpresa.pdb
+C:\Users\Autonoma\Desktop\semana7 Arqui\ProyectoEmpresa\ProyectoEmpresa\bin\Debug\ProyectoEmpresa.xml
+C:\Users\Autonoma\Desktop\semana7 Arqui\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.vbprojResolveAssemblyReference.cache
+C:\Users\Autonoma\Desktop\semana7 Arqui\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.Form1.resources
+C:\Users\Autonoma\Desktop\semana7 Arqui\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.Resources.resources
+C:\Users\Autonoma\Desktop\semana7 Arqui\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.vbproj.GenerateResource.Cache
+C:\Users\Autonoma\Desktop\semana7 Arqui\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.exe
+C:\Users\Autonoma\Desktop\semana7 Arqui\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.xml
+C:\Users\Autonoma\Desktop\semana7 Arqui\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.pdb
+C:\Users\Alumno\Desktop\ProyectoEmpresa\ProyectoEmpresa\bin\Debug\ProyectoEmpresa.exe.config
+C:\Users\Alumno\Desktop\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.exe
+C:\Users\Alumno\Desktop\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.xml
+C:\Users\Alumno\Desktop\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.pdb
+C:\Users\Alumno\Desktop\ProyectoEmpresa\ProyectoEmpresa\bin\Debug\ProyectoEmpresa.exe
+C:\Users\Alumno\Desktop\ProyectoEmpresa\ProyectoEmpresa\bin\Debug\ProyectoEmpresa.pdb
+C:\Users\Alumno\Desktop\ProyectoEmpresa\ProyectoEmpresa\bin\Debug\ProyectoEmpresa.xml
+C:\Users\Alumno\Desktop\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.vbprojResolveAssemblyReference.cache
+C:\Users\Alumno\Desktop\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.Resources.resources
+C:\Users\Alumno\Desktop\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.vbproj.GenerateResource.Cache
+C:\Users\Alumno\Desktop\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.FrmPrincipal.resources
+C:\Users\Alumno\Desktop\ProyectoEmpresa\ProyectoEmpresa\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Alumno\Desktop\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.frmAdmDepartamento.resources
+C:\Users\Alumno\Desktop\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.frmAdmEmpleados.resources
+C:\Users\Autonoma\Desktop\ProyectoEmpresa\ProyectoEmpresa\bin\Debug\ProyectoEmpresa.exe.config
+C:\Users\Autonoma\Desktop\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.exe
+C:\Users\Autonoma\Desktop\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.xml
+C:\Users\Autonoma\Desktop\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.pdb
+C:\Users\Autonoma\Desktop\ProyectoEmpresa\ProyectoEmpresa\bin\Debug\ProyectoEmpresa.exe
+C:\Users\Autonoma\Desktop\ProyectoEmpresa\ProyectoEmpresa\bin\Debug\ProyectoEmpresa.pdb
+C:\Users\Autonoma\Desktop\ProyectoEmpresa\ProyectoEmpresa\bin\Debug\ProyectoEmpresa.xml
+C:\Users\Autonoma\Desktop\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.vbprojResolveAssemblyReference.cache
+C:\Users\Autonoma\Desktop\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.frmAdmDepartamento.resources
+C:\Users\Autonoma\Desktop\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.frmAdmEmpleados.resources
+C:\Users\Autonoma\Desktop\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.FrmPrincipal.resources
+C:\Users\Autonoma\Desktop\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.Resources.resources
+C:\Users\Autonoma\Desktop\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.vbproj.GenerateResource.Cache
+C:\Users\Autonoma\Desktop\semana11\ProyectoEmpresa\ProyectoEmpresa\bin\Debug\ProyectoEmpresa.exe.config
+C:\Users\Autonoma\Desktop\semana11\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.exe
+C:\Users\Autonoma\Desktop\semana11\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.xml
+C:\Users\Autonoma\Desktop\semana11\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.pdb
+C:\Users\Autonoma\Desktop\semana11\ProyectoEmpresa\ProyectoEmpresa\bin\Debug\ProyectoEmpresa.exe
+C:\Users\Autonoma\Desktop\semana11\ProyectoEmpresa\ProyectoEmpresa\bin\Debug\ProyectoEmpresa.pdb
+C:\Users\Autonoma\Desktop\semana11\ProyectoEmpresa\ProyectoEmpresa\bin\Debug\ProyectoEmpresa.xml
+C:\Users\Autonoma\Desktop\semana11\ProyectoEmpresa\ProyectoEmpresa\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Autonoma\Desktop\semana11\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.vbprojResolveAssemblyReference.cache
+C:\Users\Autonoma\Desktop\semana11\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.frmAdmDepartamento.resources
+C:\Users\Autonoma\Desktop\semana11\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.frmAdmEmpleados.resources
+C:\Users\Autonoma\Desktop\semana11\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.FrmPrincipal.resources
+C:\Users\Autonoma\Desktop\semana11\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.Resources.resources
+C:\Users\Autonoma\Desktop\semana11\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.Agregar_Sueldo.resources
+C:\Users\Autonoma\Desktop\semana11\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.vbproj.GenerateResource.Cache
+C:\Users\AUTONOMA\Desktop\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.Agregar_Sueldo.resources
+C:\Users\AUTONOMA\Downloads\ProyectoEmpresa\ProyectoEmpresa\bin\Debug\ProyectoEmpresa.exe.config
+C:\Users\AUTONOMA\Downloads\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.exe
+C:\Users\AUTONOMA\Downloads\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.xml
+C:\Users\AUTONOMA\Downloads\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.pdb
+C:\Users\AUTONOMA\Downloads\ProyectoEmpresa\ProyectoEmpresa\bin\Debug\ProyectoEmpresa.exe
+C:\Users\AUTONOMA\Downloads\ProyectoEmpresa\ProyectoEmpresa\bin\Debug\ProyectoEmpresa.pdb
+C:\Users\AUTONOMA\Downloads\ProyectoEmpresa\ProyectoEmpresa\bin\Debug\ProyectoEmpresa.xml
+C:\Users\AUTONOMA\Downloads\ProyectoEmpresa\ProyectoEmpresa\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\AUTONOMA\Downloads\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.vbprojResolveAssemblyReference.cache
+C:\Users\AUTONOMA\Downloads\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.frmAdmDepartamento.resources
+C:\Users\AUTONOMA\Downloads\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.frmAdmEmpleados.resources
+C:\Users\AUTONOMA\Downloads\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.FrmPrincipal.resources
+C:\Users\AUTONOMA\Downloads\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.Resources.resources
+C:\Users\AUTONOMA\Downloads\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.Agregar_Sueldo.resources
+C:\Users\AUTONOMA\Downloads\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.vbproj.GenerateResource.Cache
+C:\Users\AUTONOMA\Source\Repos\pruebavisual\ProyectoEmpresa\ProyectoEmpresa\bin\Debug\ProyectoEmpresa.exe.config
+C:\Users\AUTONOMA\Source\Repos\pruebavisual\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.exe
+C:\Users\AUTONOMA\Source\Repos\pruebavisual\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.xml
+C:\Users\AUTONOMA\Source\Repos\pruebavisual\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.pdb

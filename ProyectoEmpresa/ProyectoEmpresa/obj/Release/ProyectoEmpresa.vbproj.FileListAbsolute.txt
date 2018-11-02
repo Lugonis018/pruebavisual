@@ -1,0 +1,14 @@
+C:\Users\AUTONOMA\Downloads\ProyectoEmpresa\ProyectoEmpresa\bin\Release\ProyectoEmpresa.exe.config
+C:\Users\AUTONOMA\Downloads\ProyectoEmpresa\ProyectoEmpresa\bin\Release\ProyectoEmpresa.exe
+C:\Users\AUTONOMA\Downloads\ProyectoEmpresa\ProyectoEmpresa\bin\Release\ProyectoEmpresa.pdb
+C:\Users\AUTONOMA\Downloads\ProyectoEmpresa\ProyectoEmpresa\bin\Release\ProyectoEmpresa.xml
+C:\Users\AUTONOMA\Downloads\ProyectoEmpresa\ProyectoEmpresa\bin\Release\Oracle.ManagedDataAccess.dll
+C:\Users\AUTONOMA\Downloads\ProyectoEmpresa\ProyectoEmpresa\obj\Release\ProyectoEmpresa.frmAdmDepartamento.resources
+C:\Users\AUTONOMA\Downloads\ProyectoEmpresa\ProyectoEmpresa\obj\Release\ProyectoEmpresa.frmAdmEmpleados.resources
+C:\Users\AUTONOMA\Downloads\ProyectoEmpresa\ProyectoEmpresa\obj\Release\ProyectoEmpresa.FrmPrincipal.resources
+C:\Users\AUTONOMA\Downloads\ProyectoEmpresa\ProyectoEmpresa\obj\Release\ProyectoEmpresa.Resources.resources
+C:\Users\AUTONOMA\Downloads\ProyectoEmpresa\ProyectoEmpresa\obj\Release\ProyectoEmpresa.Agregar_Sueldo.resources
+C:\Users\AUTONOMA\Downloads\ProyectoEmpresa\ProyectoEmpresa\obj\Release\ProyectoEmpresa.vbproj.GenerateResource.Cache
+C:\Users\AUTONOMA\Downloads\ProyectoEmpresa\ProyectoEmpresa\obj\Release\ProyectoEmpresa.exe
+C:\Users\AUTONOMA\Downloads\ProyectoEmpresa\ProyectoEmpresa\obj\Release\ProyectoEmpresa.xml
+C:\Users\AUTONOMA\Downloads\ProyectoEmpresa\ProyectoEmpresa\obj\Release\ProyectoEmpresa.pdb
