@@ -4,9 +4,9 @@ Imports Oracle.ManagedDataAccess.Client
 
 
 Public Class Aumentar_Sueldo
-    Public conexion As OracleConnection
+
     Dim sql As String
-    Dim com As OracleCommand, dr As OracleDataReader
+
 
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
 
@@ -18,29 +18,16 @@ Public Class Aumentar_Sueldo
 
     End Sub
 
-    Public Sub conectar()
-        conexion = New OracleConnection
-        conexion.ConnectionString = ("DATA SOURCE=localhost:1521/xe;PASSWORD=UEMPRESA;USER ID=UEMPRESA")
-        conexion.Open()
-    End Sub
+
     Private Sub btnGuardar_Click(sender As Object, e As EventArgs) Handles btnGuardar.Click
-        Dim IdEmpleado As String
+        Dim IdEmpleado, Cantidad As String
         IdEmpleado = cboEmpleado.SelectedValue.ToString
-        Dim Cantidad As String
-        Cantidad = txtCantidad.Text
-        Try
-
-            sql = "EXECUTE SP_AUMENTAR_SUELDO( '" + IdEmpleado + "','" + Cantidad + "')"
+        Cantidad = TextBox1.Text
 
 
-            conectar()
-            com = New OracleCommand(sql, conexion)
-            dr = com.ExecuteReader
+        sp_aumentar_sueldo(IdEmpleado, Cantidad)
 
-            MsgBox("Se aumentó el sueldo correctamente", MessageBoxButtons.OK)
-        Catch ex As Exception
-            MsgBox("No se realizo el aumento de sueldo correctamente", MessageBoxButtons.OK)
-        End Try
+        TextBox1.Text = ""
     End Sub
 
     Private Sub btnActualizar_Click(sender As Object, e As EventArgs) Handles btnActualizar.Click

@@ -1,10 +1,11 @@
-﻿'Imports System.Data.OracleClient
-Imports Oracle.ManagedDataAccess.Client
+﻿Imports System.Data.OracleClient
+'Imports Oracle.ManagedDataAccess.Client
 
 Module conexion
 
     Public cn As OracleConnection
     Public adaptador As OracleDataAdapter
+    Public comando As OracleCommand
 
     Friend Function conectar() As Oracle.ManagedDataAccess.Client.OracleConnection
         Throw New NotImplementedException()
@@ -14,7 +15,7 @@ Module conexion
 
     Sub abrirConexion()
         Try
-            cn = New OracleConnection("DATA SOURCE=localhost:1521/xe;PASSWORD=UEMPRESA;USER ID=UEMPRESA")
+            cn = New OracleConnection("DATA SOURCE=197.168.1.8:1521/xe;PASSWORD=UEMPRESA;USER ID=UEMPRESA")
             cn.Open()
             MessageBox.Show("CONECTADO")
         Catch ex As Exception
@@ -33,6 +34,18 @@ Module conexion
         End Try
 
     End Sub
+    Sub sp_aumentar_sueldo(IdEmpleado As Integer, Cantidad As Integer)
+        Try
+            comando = New OracleCommand("SP_AUMENTAR_SUELDO", cn)
+            comando.CommandType = CommandType.StoredProcedure
+            comando.Parameters.AddWithValue("P_IDEMPLEADO", IdEmpleado)
+            comando.Parameters.AddWithValue("P_AUMENTO", Cantidad)
 
+            comando.ExecuteNonQuery()
+            MsgBox("SUELDO AUMENTADO CORRECTAMENTE")
+        Catch ex As Exception
+            MessageBox.Show("ERROR")
+        End Try
+    End Sub
 
 End Module

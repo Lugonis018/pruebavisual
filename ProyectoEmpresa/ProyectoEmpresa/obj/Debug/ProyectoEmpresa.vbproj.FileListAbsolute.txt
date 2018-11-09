@@ -71,3 +71,14 @@ C:\Users\AUTONOMA\Source\Repos\pruebavisual\ProyectoEmpresa\ProyectoEmpresa\bin\
 C:\Users\AUTONOMA\Source\Repos\pruebavisual\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.exe
 C:\Users\AUTONOMA\Source\Repos\pruebavisual\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.xml
 C:\Users\AUTONOMA\Source\Repos\pruebavisual\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.pdb
+C:\Users\AUTONOMA\Source\Repos\pruebavisual\ProyectoEmpresa\ProyectoEmpresa\bin\Debug\ProyectoEmpresa.exe
+C:\Users\AUTONOMA\Source\Repos\pruebavisual\ProyectoEmpresa\ProyectoEmpresa\bin\Debug\ProyectoEmpresa.pdb
+C:\Users\AUTONOMA\Source\Repos\pruebavisual\ProyectoEmpresa\ProyectoEmpresa\bin\Debug\ProyectoEmpresa.xml
+C:\Users\AUTONOMA\Source\Repos\pruebavisual\ProyectoEmpresa\ProyectoEmpresa\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\AUTONOMA\Source\Repos\pruebavisual\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.vbprojResolveAssemblyReference.cache
+C:\Users\AUTONOMA\Source\Repos\pruebavisual\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.frmAdmDepartamento.resources
+C:\Users\AUTONOMA\Source\Repos\pruebavisual\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.frmAdmEmpleados.resources
+C:\Users\AUTONOMA\Source\Repos\pruebavisual\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.FrmPrincipal.resources
+C:\Users\AUTONOMA\Source\Repos\pruebavisual\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.Resources.resources
+C:\Users\AUTONOMA\Source\Repos\pruebavisual\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.Aumentar_Sueldo.resources
+C:\Users\AUTONOMA\Source\Repos\pruebavisual\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.vbproj.GenerateResource.Cache

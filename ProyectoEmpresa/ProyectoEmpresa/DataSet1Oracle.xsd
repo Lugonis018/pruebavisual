@@ -2,14 +2,14 @@
 <xs:schema id="DataSet1Oracle" targetNamespace="http://tempuri.org/DataSet1Oracle.xsd" xmlns:mstns="http://tempuri.org/DataSet1Oracle.xsd" xmlns="http://tempuri.org/DataSet1Oracle.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
   <xs:annotation>
     <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
-      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" GeneratorFunctionsComponentClassName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" UserFunctionsComponentName="QueriesTableAdapter" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
         <Connections>
-          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ConnectionStringOracle" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionStringOracle (MySettings)" ParameterPrefix=":" PropertyReference="ApplicationSettings.ProyectoEmpresa.My.MySettings.GlobalReference.Default.ConnectionStringOracle" Provider="Oracle.ManagedDataAccess.Client" />
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString (MySettings)" ParameterPrefix=":" PropertyReference="ApplicationSettings.ProyectoEmpresa.My.MySettings.GlobalReference.Default.ConnectionString" Provider="Oracle.ManagedDataAccess.Client" />
         </Connections>
         <Tables>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DEPARTAMENTOTableAdapter" GeneratorDataComponentClassName="DEPARTAMENTOTableAdapter" Name="DEPARTAMENTO" UserDataComponentName="DEPARTAMENTOTableAdapter">
             <MainSource>
-              <DbSource ConnectionRef="ConnectionStringOracle (MySettings)" DbObjectName="UEMPRESA.DEPARTAMENTO" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+              <DbSource ConnectionRef="ConnectionString (MySettings)" DbObjectName="UEMPRESA.DEPARTAMENTO" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
                 <DeleteCommand>
                   <DbCommand CommandType="Text" ModifiedByUser="false">
                     <CommandText>DELETE FROM "UEMPRESA"."DEPARTAMENTO" WHERE (("IDDEPARTAMENTO" = :Original_IDDEPARTAMENTO) AND ((:IsNull_NOMBRE = 1 AND "NOMBRE" IS NULL) OR ("NOMBRE" = :Original_NOMBRE)))</CommandText>
@@ -57,7 +57,7 @@
           </TableAdapter>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EMPLEADOTableAdapter" GeneratorDataComponentClassName="EMPLEADOTableAdapter" Name="EMPLEADO" UserDataComponentName="EMPLEADOTableAdapter">
             <MainSource>
-              <DbSource ConnectionRef="ConnectionStringOracle (MySettings)" DbObjectName="UEMPRESA.EMPLEADO" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+              <DbSource ConnectionRef="ConnectionString (MySettings)" DbObjectName="UEMPRESA.EMPLEADO" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
                 <DeleteCommand>
                   <DbCommand CommandType="Text" ModifiedByUser="false">
                     <CommandText>DELETE FROM "UEMPRESA"."EMPLEADO" WHERE (("IDEMPLEADO" = :Original_IDEMPLEADO) AND ((:IsNull_NOMBRE = 1 AND "NOMBRE" IS NULL) OR ("NOMBRE" = :Original_NOMBRE)) AND ((:IsNull_SUELDO = 1 AND "SUELDO" IS NULL) OR ("SUELDO" = :Original_SUELDO)) AND ((:IsNull_IDSUPERVISOR = 1 AND "IDSUPERVISOR" IS NULL) OR ("IDSUPERVISOR" = :Original_IDSUPERVISOR)) AND ((:IsNull_IDDPTO = 1 AND "IDDPTO" IS NULL) OR ("IDDPTO" = :Original_IDDPTO)))</CommandText>
@@ -66,7 +66,7 @@
                       <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_NOMBRE" Precision="0" ProviderType="Int32" Scale="0" Size="50" SourceColumn="NOMBRE" SourceColumnNullMapping="true" SourceVersion="Original" />
                       <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_NOMBRE" Precision="0" ProviderType="Varchar2" Scale="0" Size="50" SourceColumn="NOMBRE" SourceColumnNullMapping="false" SourceVersion="Original" />
                       <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_SUELDO" Precision="0" ProviderType="Int32" Scale="0" Size="22" SourceColumn="SUELDO" SourceColumnNullMapping="true" SourceVersion="Original" />
-                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="Original_SUELDO" Precision="0" ProviderType="Decimal" Scale="0" Size="22" SourceColumn="SUELDO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Single" Direction="Input" ParameterName="Original_SUELDO" Precision="0" ProviderType="Single" Scale="0" Size="22" SourceColumn="SUELDO" SourceColumnNullMapping="false" SourceVersion="Original" />
                       <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_IDSUPERVISOR" Precision="0" ProviderType="Int32" Scale="0" Size="22" SourceColumn="IDSUPERVISOR" SourceColumnNullMapping="true" SourceVersion="Original" />
                       <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="Original_IDSUPERVISOR" Precision="0" ProviderType="Decimal" Scale="0" Size="22" SourceColumn="IDSUPERVISOR" SourceColumnNullMapping="false" SourceVersion="Original" />
                       <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_IDDPTO" Precision="0" ProviderType="Int32" Scale="0" Size="22" SourceColumn="IDDPTO" SourceColumnNullMapping="true" SourceVersion="Original" />
@@ -80,7 +80,7 @@
                     <Parameters>
                       <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="IDEMPLEADO" Precision="0" ProviderType="Decimal" Scale="0" Size="22" SourceColumn="IDEMPLEADO" SourceColumnNullMapping="false" SourceVersion="Current" />
                       <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="NOMBRE" Precision="0" ProviderType="Varchar2" Scale="0" Size="50" SourceColumn="NOMBRE" SourceColumnNullMapping="false" SourceVersion="Current" />
-                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="SUELDO" Precision="0" ProviderType="Decimal" Scale="0" Size="22" SourceColumn="SUELDO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Single" Direction="Input" ParameterName="SUELDO" Precision="0" ProviderType="Single" Scale="0" Size="22" SourceColumn="SUELDO" SourceColumnNullMapping="false" SourceVersion="Current" />
                       <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="IDSUPERVISOR" Precision="0" ProviderType="Decimal" Scale="0" Size="22" SourceColumn="IDSUPERVISOR" SourceColumnNullMapping="false" SourceVersion="Current" />
                       <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="IDDPTO" Precision="0" ProviderType="Decimal" Scale="0" Size="22" SourceColumn="IDDPTO" SourceColumnNullMapping="false" SourceVersion="Current" />
                     </Parameters>
@@ -98,14 +98,14 @@
                     <Parameters>
                       <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="IDEMPLEADO" Precision="0" ProviderType="Decimal" Scale="0" Size="22" SourceColumn="IDEMPLEADO" SourceColumnNullMapping="false" SourceVersion="Current" />
                       <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="NOMBRE" Precision="0" ProviderType="Varchar2" Scale="0" Size="50" SourceColumn="NOMBRE" SourceColumnNullMapping="false" SourceVersion="Current" />
-                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="SUELDO" Precision="0" ProviderType="Decimal" Scale="0" Size="22" SourceColumn="SUELDO" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Single" Direction="Input" ParameterName="SUELDO" Precision="0" ProviderType="Single" Scale="0" Size="22" SourceColumn="SUELDO" SourceColumnNullMapping="false" SourceVersion="Current" />
                       <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="IDSUPERVISOR" Precision="0" ProviderType="Decimal" Scale="0" Size="22" SourceColumn="IDSUPERVISOR" SourceColumnNullMapping="false" SourceVersion="Current" />
                       <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="IDDPTO" Precision="0" ProviderType="Decimal" Scale="0" Size="22" SourceColumn="IDDPTO" SourceColumnNullMapping="false" SourceVersion="Current" />
                       <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="Original_IDEMPLEADO" Precision="0" ProviderType="Decimal" Scale="0" Size="22" SourceColumn="IDEMPLEADO" SourceColumnNullMapping="false" SourceVersion="Original" />
                       <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_NOMBRE" Precision="0" ProviderType="Int32" Scale="0" Size="50" SourceColumn="NOMBRE" SourceColumnNullMapping="true" SourceVersion="Original" />
                       <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="Original_NOMBRE" Precision="0" ProviderType="Varchar2" Scale="0" Size="50" SourceColumn="NOMBRE" SourceColumnNullMapping="false" SourceVersion="Original" />
                       <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_SUELDO" Precision="0" ProviderType="Int32" Scale="0" Size="22" SourceColumn="SUELDO" SourceColumnNullMapping="true" SourceVersion="Original" />
-                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="Original_SUELDO" Precision="0" ProviderType="Decimal" Scale="0" Size="22" SourceColumn="SUELDO" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Single" Direction="Input" ParameterName="Original_SUELDO" Precision="0" ProviderType="Single" Scale="0" Size="22" SourceColumn="SUELDO" SourceColumnNullMapping="false" SourceVersion="Original" />
                       <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_IDSUPERVISOR" Precision="0" ProviderType="Int32" Scale="0" Size="22" SourceColumn="IDSUPERVISOR" SourceColumnNullMapping="true" SourceVersion="Original" />
                       <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Decimal" Direction="Input" ParameterName="Original_IDSUPERVISOR" Precision="0" ProviderType="Decimal" Scale="0" Size="22" SourceColumn="IDSUPERVISOR" SourceColumnNullMapping="false" SourceVersion="Original" />
                       <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="IsNull_IDDPTO" Precision="0" ProviderType="Int32" Scale="0" Size="22" SourceColumn="IDDPTO" SourceColumnNullMapping="true" SourceVersion="Original" />
@@ -125,7 +125,86 @@
             <Sources />
           </TableAdapter>
         </Tables>
-        <Sources />
+        <Sources>
+          <DbSource ConnectionRef="ConnectionString (MySettings)" DbObjectName="UEMPRESA.SP_AGREGAR_DEPARTAMENTO" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="SP_AGREGAR_DEPARTAMENTO" MethodsParameterType="CLR" Modifier="Public" Name="SP_AGREGAR_DEPARTAMENTO" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="SP_AGREGAR_DEPARTAMENTO">
+            <SelectCommand>
+              <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                <CommandText>UEMPRESA.SP_AGREGAR_DEPARTAMENTO</CommandText>
+                <Parameters>
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="NUMBER" DbType="Decimal" Direction="Input" ParameterName="P_IDDEPARTAMENTO" Precision="0" ProviderType="Decimal" Scale="0" Size="22" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="VARCHAR2" DbType="String" Direction="Input" ParameterName="P_NOMBRE" Precision="0" ProviderType="Varchar2" Scale="0" Size="32767" SourceColumnNullMapping="false" SourceVersion="Current" />
+                </Parameters>
+              </DbCommand>
+            </SelectCommand>
+          </DbSource>
+          <DbSource ConnectionRef="ConnectionString (MySettings)" DbObjectName="UEMPRESA.SP_AGREGAR_EMPLEADO" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="SP_AGREGAR_EMPLEADO" MethodsParameterType="CLR" Modifier="Public" Name="SP_AGREGAR_EMPLEADO" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy1" UserSourceName="SP_AGREGAR_EMPLEADO">
+            <SelectCommand>
+              <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                <CommandText>UEMPRESA.SP_AGREGAR_EMPLEADO</CommandText>
+                <Parameters>
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="NUMBER" DbType="Decimal" Direction="Input" ParameterName="P_IDEMPLEADO" Precision="0" ProviderType="Decimal" Scale="0" Size="22" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="VARCHAR2" DbType="String" Direction="Input" ParameterName="P_NOMBRE" Precision="0" ProviderType="Varchar2" Scale="0" Size="32767" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="NUMBER" DbType="Decimal" Direction="Input" ParameterName="P_SUELDO" Precision="0" ProviderType="Decimal" Scale="0" Size="22" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="NUMBER" DbType="Decimal" Direction="Input" ParameterName="P_IDSUPERVISOR" Precision="0" ProviderType="Decimal" Scale="0" Size="22" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="NUMBER" DbType="Decimal" Direction="Input" ParameterName="P_IDDPTO" Precision="0" ProviderType="Decimal" Scale="0" Size="22" SourceColumnNullMapping="false" SourceVersion="Current" />
+                </Parameters>
+              </DbCommand>
+            </SelectCommand>
+          </DbSource>
+          <DbSource ConnectionRef="ConnectionString (MySettings)" DbObjectName="UEMPRESA.SP_AUMENTAR_SUELDO" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="SP_AUMENTAR_SUELDO" MethodsParameterType="CLR" Modifier="Public" Name="SP_AUMENTAR_SUELDO" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy2" UserSourceName="SP_AUMENTAR_SUELDO">
+            <SelectCommand>
+              <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                <CommandText>UEMPRESA.SP_AUMENTAR_SUELDO</CommandText>
+                <Parameters>
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="NUMBER" DbType="Decimal" Direction="Input" ParameterName="P_IDEMPLEADO" Precision="0" ProviderType="Decimal" Scale="0" Size="22" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="NUMBER" DbType="Decimal" Direction="Input" ParameterName="P_AUMENTO" Precision="0" ProviderType="Decimal" Scale="0" Size="22" SourceColumnNullMapping="false" SourceVersion="Current" />
+                </Parameters>
+              </DbCommand>
+            </SelectCommand>
+          </DbSource>
+          <DbSource ConnectionRef="ConnectionString (MySettings)" DbObjectName="UEMPRESA.SP_AUMENTO_SUELDO_" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="SP_AUMENTO_SUELDO_" MethodsParameterType="CLR" Modifier="Public" Name="SP_AUMENTO_SUELDO_" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy3" UserSourceName="SP_AUMENTO_SUELDO_">
+            <SelectCommand>
+              <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                <CommandText>UEMPRESA.SP_AUMENTO_SUELDO_</CommandText>
+                <Parameters>
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="NUMBER" DbType="Decimal" Direction="Input" ParameterName="P_AUMENTO" Precision="0" ProviderType="Decimal" Scale="0" Size="22" SourceColumnNullMapping="false" SourceVersion="Current" />
+                </Parameters>
+              </DbCommand>
+            </SelectCommand>
+          </DbSource>
+          <DbSource ConnectionRef="ConnectionString (MySettings)" DbObjectName="UEMPRESA.SP_AUMENTO_SUELDO_2" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="SP_AUMENTO_SUELDO_2" MethodsParameterType="CLR" Modifier="Public" Name="SP_AUMENTO_SUELDO_2" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy4" UserSourceName="SP_AUMENTO_SUELDO_2">
+            <SelectCommand>
+              <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                <CommandText>UEMPRESA.SP_AUMENTO_SUELDO_2</CommandText>
+                <Parameters>
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="NUMBER" DbType="Decimal" Direction="Input" ParameterName="P_AUMENTO" Precision="0" ProviderType="Decimal" Scale="0" Size="22" SourceColumnNullMapping="false" SourceVersion="Current" />
+                </Parameters>
+              </DbCommand>
+            </SelectCommand>
+          </DbSource>
+          <DbSource ConnectionRef="ConnectionString (MySettings)" DbObjectName="UEMPRESA.SP_DISMINUIR_SUELDO" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="SP_DISMINUIR_SUELDO" MethodsParameterType="CLR" Modifier="Public" Name="SP_DISMINUIR_SUELDO" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy5" UserSourceName="SP_DISMINUIR_SUELDO">
+            <SelectCommand>
+              <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                <CommandText>UEMPRESA.SP_DISMINUIR_SUELDO</CommandText>
+                <Parameters>
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="NUMBER" DbType="Decimal" Direction="Input" ParameterName="P_IDEMPLEADO" Precision="0" ProviderType="Decimal" Scale="0" Size="22" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="NUMBER" DbType="Decimal" Direction="Input" ParameterName="P_DESCUENTO" Precision="0" ProviderType="Decimal" Scale="0" Size="22" SourceColumnNullMapping="false" SourceVersion="Current" />
+                </Parameters>
+              </DbCommand>
+            </SelectCommand>
+          </DbSource>
+          <DbSource ConnectionRef="ConnectionString (MySettings)" DbObjectName="UEMPRESA.SP_DISMINUIR_SUELDO_NOMBRE" DbObjectType="StoredProcedure" GenerateShortCommands="true" GeneratorSourceName="SP_DISMINUIR_SUELDO_NOMBRE" MethodsParameterType="CLR" Modifier="Public" Name="SP_DISMINUIR_SUELDO_NOMBRE" QueryType="NoData" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy6" UserSourceName="SP_DISMINUIR_SUELDO_NOMBRE">
+            <SelectCommand>
+              <DbCommand CommandType="StoredProcedure" ModifiedByUser="false">
+                <CommandText>UEMPRESA.SP_DISMINUIR_SUELDO_NOMBRE</CommandText>
+                <Parameters>
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="VARCHAR2" DbType="String" Direction="Input" ParameterName="P_NOMBRE" Precision="0" ProviderType="Varchar2" Scale="0" Size="32767" SourceColumnNullMapping="false" SourceVersion="Current" />
+                  <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DataTypeServer="NUMBER" DbType="Decimal" Direction="Input" ParameterName="P_DESCUENTO" Precision="0" ProviderType="Decimal" Scale="0" Size="22" SourceColumnNullMapping="false" SourceVersion="Current" />
+                </Parameters>
+              </DbCommand>
+            </SelectCommand>
+          </DbSource>
+        </Sources>
       </DataSource>
     </xs:appinfo>
   </xs:annotation>
@@ -157,7 +236,7 @@
                   </xs:restriction>
                 </xs:simpleType>
               </xs:element>
-              <xs:element name="SUELDO" msprop:Generator_ColumnVarNameInTable="columnSUELDO" msprop:Generator_ColumnPropNameInRow="SUELDO" msprop:Generator_ColumnPropNameInTable="SUELDOColumn" msprop:Generator_UserColumnName="SUELDO" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUELDO" msprop:Generator_ColumnVarNameInTable="columnSUELDO" msprop:Generator_ColumnPropNameInRow="SUELDO" msprop:Generator_ColumnPropNameInTable="SUELDOColumn" msprop:Generator_UserColumnName="SUELDO" type="xs:float" minOccurs="0" />
               <xs:element name="IDSUPERVISOR" msprop:Generator_ColumnVarNameInTable="columnIDSUPERVISOR" msprop:Generator_ColumnPropNameInRow="IDSUPERVISOR" msprop:Generator_ColumnPropNameInTable="IDSUPERVISORColumn" msprop:Generator_UserColumnName="IDSUPERVISOR" type="xs:decimal" minOccurs="0" />
               <xs:element name="IDDPTO" msprop:Generator_ColumnVarNameInTable="columnIDDPTO" msprop:Generator_ColumnPropNameInRow="IDDPTO" msprop:Generator_ColumnPropNameInTable="IDDPTOColumn" msprop:Generator_UserColumnName="IDDPTO" type="xs:decimal" minOccurs="0" />
             </xs:sequence>

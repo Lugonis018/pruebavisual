@@ -85,9 +85,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSet1Oracle.xsd</DependentUpon>
     </Compile>
-    <Compile Include="DataSet1Oracle.vb">
-      <DependentUpon>DataSet1Oracle.xsd</DependentUpon>
-    </Compile>
     <Compile Include="Empleado\frmAdmDepartamento.Designer.vb">
       <DependentUpon>frmAdmDepartamento.vb</DependentUpon>
     </Compile>
