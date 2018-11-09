@@ -124,6 +124,12 @@
     <Compile Include="Procedimientos\Aumentar_Sueldo.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Procedimientos\Disminuir_Sueldo.Designer.vb">
+      <DependentUpon>Disminuir_Sueldo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Procedimientos\Disminuir_Sueldo.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Empleado\frmAdmDepartamento.resx">
@@ -143,6 +149,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Procedimientos\Aumentar_Sueldo.resx">
       <DependentUpon>Aumentar_Sueldo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procedimientos\Disminuir_Sueldo.resx">
+      <DependentUpon>Disminuir_Sueldo.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

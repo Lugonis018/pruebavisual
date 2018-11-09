@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class FrmPrincipal
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class FrmPrincipal
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.EmpleadoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -32,7 +32,6 @@ Partial Class FrmPrincipal
         Me.VerRegistroToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SPDisminuirMatriculaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SPDisminuirSueldoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SPAumentarSueldo2ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.dgv = New System.Windows.Forms.DataGridView()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.dgv, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -87,7 +86,7 @@ Partial Class FrmPrincipal
         '
         'VerRegistroToolStripMenuItem
         '
-        Me.VerRegistroToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SPDisminuirMatriculaToolStripMenuItem, Me.SPDisminuirSueldoToolStripMenuItem, Me.SPAumentarSueldo2ToolStripMenuItem})
+        Me.VerRegistroToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SPDisminuirMatriculaToolStripMenuItem, Me.SPDisminuirSueldoToolStripMenuItem})
         Me.VerRegistroToolStripMenuItem.Name = "VerRegistroToolStripMenuItem"
         Me.VerRegistroToolStripMenuItem.Size = New System.Drawing.Size(82, 20)
         Me.VerRegistroToolStripMenuItem.Text = "Ver Registro"
@@ -95,20 +94,14 @@ Partial Class FrmPrincipal
         'SPDisminuirMatriculaToolStripMenuItem
         '
         Me.SPDisminuirMatriculaToolStripMenuItem.Name = "SPDisminuirMatriculaToolStripMenuItem"
-        Me.SPDisminuirMatriculaToolStripMenuItem.Size = New System.Drawing.Size(192, 22)
+        Me.SPDisminuirMatriculaToolStripMenuItem.Size = New System.Drawing.Size(186, 22)
         Me.SPDisminuirMatriculaToolStripMenuItem.Text = "SP_Aumentar_Sueldo"
         '
         'SPDisminuirSueldoToolStripMenuItem
         '
         Me.SPDisminuirSueldoToolStripMenuItem.Name = "SPDisminuirSueldoToolStripMenuItem"
-        Me.SPDisminuirSueldoToolStripMenuItem.Size = New System.Drawing.Size(192, 22)
+        Me.SPDisminuirSueldoToolStripMenuItem.Size = New System.Drawing.Size(186, 22)
         Me.SPDisminuirSueldoToolStripMenuItem.Text = "SP_Disminuir_Sueldo"
-        '
-        'SPAumentarSueldo2ToolStripMenuItem
-        '
-        Me.SPAumentarSueldo2ToolStripMenuItem.Name = "SPAumentarSueldo2ToolStripMenuItem"
-        Me.SPAumentarSueldo2ToolStripMenuItem.Size = New System.Drawing.Size(192, 22)
-        Me.SPAumentarSueldo2ToolStripMenuItem.Text = "SP_Aumentar_Sueldo2"
         '
         'dgv
         '
@@ -150,5 +143,4 @@ Partial Class FrmPrincipal
     Friend WithEvents SPDisminuirSueldoToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SPAgregarDepartamentoToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SPAgregarEmpleadoToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents SPAumentarSueldo2ToolStripMenuItem As ToolStripMenuItem
 End Class

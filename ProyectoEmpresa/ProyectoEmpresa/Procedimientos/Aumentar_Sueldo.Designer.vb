@@ -23,7 +23,6 @@ Partial Class Aumentar_Sueldo
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Me.btnGuardar = New System.Windows.Forms.Button()
         Me.btnActualizar = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.txtCantidad = New System.Windows.Forms.Label()
@@ -38,18 +37,9 @@ Partial Class Aumentar_Sueldo
         CType(Me.dgv2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'btnGuardar
-        '
-        Me.btnGuardar.Location = New System.Drawing.Point(179, 157)
-        Me.btnGuardar.Name = "btnGuardar"
-        Me.btnGuardar.Size = New System.Drawing.Size(83, 33)
-        Me.btnGuardar.TabIndex = 0
-        Me.btnGuardar.Text = "GUARDAR"
-        Me.btnGuardar.UseVisualStyleBackColor = True
-        '
         'btnActualizar
         '
-        Me.btnActualizar.Location = New System.Drawing.Point(319, 162)
+        Me.btnActualizar.Location = New System.Drawing.Point(174, 109)
         Me.btnActualizar.Name = "btnActualizar"
         Me.btnActualizar.Size = New System.Drawing.Size(104, 28)
         Me.btnActualizar.TabIndex = 1
@@ -60,7 +50,7 @@ Partial Class Aumentar_Sueldo
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(175, 44)
+        Me.Label1.Location = New System.Drawing.Point(98, 13)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(106, 20)
         Me.Label1.TabIndex = 2
@@ -70,7 +60,7 @@ Partial Class Aumentar_Sueldo
         '
         Me.txtCantidad.AutoSize = True
         Me.txtCantidad.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtCantidad.Location = New System.Drawing.Point(202, 98)
+        Me.txtCantidad.Location = New System.Drawing.Point(125, 67)
         Me.txtCantidad.Name = "txtCantidad"
         Me.txtCantidad.Size = New System.Drawing.Size(77, 20)
         Me.txtCantidad.TabIndex = 3
@@ -81,7 +71,7 @@ Partial Class Aumentar_Sueldo
         Me.cboEmpleado.DataSource = Me.EMPLEADOBindingSource
         Me.cboEmpleado.DisplayMember = "IDEMPLEADO"
         Me.cboEmpleado.FormattingEnabled = True
-        Me.cboEmpleado.Location = New System.Drawing.Point(302, 43)
+        Me.cboEmpleado.Location = New System.Drawing.Point(225, 12)
         Me.cboEmpleado.Name = "cboEmpleado"
         Me.cboEmpleado.Size = New System.Drawing.Size(121, 21)
         Me.cboEmpleado.TabIndex = 4
@@ -100,14 +90,14 @@ Partial Class Aumentar_Sueldo
         'dgv2
         '
         Me.dgv2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dgv2.Location = New System.Drawing.Point(12, 256)
+        Me.dgv2.Location = New System.Drawing.Point(12, 143)
         Me.dgv2.Name = "dgv2"
-        Me.dgv2.Size = New System.Drawing.Size(643, 313)
+        Me.dgv2.Size = New System.Drawing.Size(425, 301)
         Me.dgv2.TabIndex = 5
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(302, 95)
+        Me.TextBox1.Location = New System.Drawing.Point(225, 64)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(121, 20)
         Me.TextBox1.TabIndex = 6
@@ -116,19 +106,18 @@ Partial Class Aumentar_Sueldo
         '
         Me.EMPLEADOTableAdapter.ClearBeforeFill = True
         '
-        'Agregar_Sueldo
+        'Aumentar_Sueldo
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(727, 640)
+        Me.ClientSize = New System.Drawing.Size(447, 456)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.dgv2)
         Me.Controls.Add(Me.cboEmpleado)
         Me.Controls.Add(Me.txtCantidad)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnActualizar)
-        Me.Controls.Add(Me.btnGuardar)
-        Me.Name = "Agregar_Sueldo"
+        Me.Name = "Aumentar_Sueldo"
         Me.Text = "Aumentar_Sueldo"
         CType(Me.EMPLEADOBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.DataSet1Oracle, System.ComponentModel.ISupportInitialize).EndInit()
@@ -137,8 +126,6 @@ Partial Class Aumentar_Sueldo
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents btnGuardar As Button
     Friend WithEvents btnActualizar As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents txtCantidad As Label

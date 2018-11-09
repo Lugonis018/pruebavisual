@@ -47,5 +47,19 @@ Module conexion
             MessageBox.Show("ERROR")
         End Try
     End Sub
+    Sub sp_disminuir_sueldo(IdEmpleado As Integer, Cantidad As Integer)
+        Try
+            comando = New OracleCommand("SP_DISMINUIR_SUELDO", cn)
+            comando.CommandType = CommandType.StoredProcedure
+            comando.Parameters.AddWithValue("P_IDEMPLEADO", IdEmpleado)
+            comando.Parameters.AddWithValue("P_DESCUENTO", Cantidad)
+
+            comando.ExecuteNonQuery()
+            MsgBox("SUELDO DESCONTADO CORRECTAMENTE")
+        Catch ex As Exception
+            MessageBox.Show("ERROR")
+
+        End Try
+    End Sub
 
 End Module

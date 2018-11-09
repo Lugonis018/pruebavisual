@@ -36,4 +36,8 @@
     Private Sub SPDisminuirMatriculaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SPDisminuirMatriculaToolStripMenuItem.Click
         Call Aumentar_Sueldo.Show()
     End Sub
+
+    Private Sub SPDisminuirSueldoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SPDisminuirSueldoToolStripMenuItem.Click
+        Call Disminuir_Sueldo.Show()
+    End Sub
 End Class

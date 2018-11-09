@@ -82,3 +82,4 @@ C:\Users\AUTONOMA\Source\Repos\pruebavisual\ProyectoEmpresa\ProyectoEmpresa\obj\
 C:\Users\AUTONOMA\Source\Repos\pruebavisual\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.Resources.resources
 C:\Users\AUTONOMA\Source\Repos\pruebavisual\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.Aumentar_Sueldo.resources
 C:\Users\AUTONOMA\Source\Repos\pruebavisual\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.vbproj.GenerateResource.Cache
+C:\Users\AUTONOMA\Source\Repos\pruebavisual\ProyectoEmpresa\ProyectoEmpresa\obj\Debug\ProyectoEmpresa.Disminuir_Sueldo.resources
